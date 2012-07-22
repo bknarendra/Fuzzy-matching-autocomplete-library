@@ -1,0 +1,5 @@
+It is a fuzzy matching autocomplete library. It is available in 2 modes. First is the Http server mode in which you run the standalone server and call it directly from your ajax script.It returns data in json format with decreasing scores. For this you need to configure it by providing the file name containing the words for suggestion.
+
+The second is you can embed it directly in your application by first creating trie and then calling the getResult() method in CHandler class. See the source code for better understanding.
+
+Fork the project on https://github.com/bknarendra/Fuzzy-matching-autocomplete-library
